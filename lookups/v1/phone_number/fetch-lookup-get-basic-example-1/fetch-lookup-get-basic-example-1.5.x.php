@@ -8,8 +8,8 @@ use Twilio\Rest\Client;
 
 // Find your Account Sid and Auth Token at twilio.com/console
 // DANGER! This is insecure. See http://twil.io/secure
-$sid    = "ACXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX";
-$token  = "your_auth_token";
+$sid    = "AC7fc616ac71b436d8cbf0cde6cac52a4f";
+$token  = "show";
 $twilio = new Client($sid, $token);
 
 $phone_number = $twilio->lookups->v1->phoneNumbers("+15108675310")
